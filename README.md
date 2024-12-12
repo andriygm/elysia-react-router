@@ -1,8 +1,8 @@
-# Remix Elysia
+# elysia-react-router
 
-Use [Remix](https://remix.run/) with [Elysia](https://elysiajs.com/) with `HMR` support! Close a really long-standing elysia plugin request https://github.com/elysiajs/elysia/issues/12
+Use [React Router]([https://remix.run/](https://reactrouter.com/)) with [Elysia](https://elysiajs.com/) with `HMR` support!
 
-### Usage
+## Usage
 
 In `development` mode it use [`vite`](https://vitejs.dev/guide/api-javascript.html) under the hood and in `production` serve build directory and perform SSR requests
 
@@ -16,13 +16,13 @@ new Elysia()
     .listen(3000, console.log);
 ```
 
-### Quick start
+## Quick start
 
 ```bash
 bun create remix@latest --template kravetsone/elysia-remix/example
 ```
 
-### Options
+## Options
 
 | Key              | Type                                                            | Default                                 | Description                                                                                                         |
 | ---------------- | --------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
